@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FixedID</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="logo-navbar">Fixed<span>ID</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#collection">Collection</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="Cart"><i data-feather="archive"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <!-- Up section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Good <span>Ride</span><br />
+          Good <span>Mood</span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, mollitia?</p>
+        <a href="#" class="cta">Let's Go!</a>
+      </main>
+    </section>
+
+    <!-- end section -->
+    <!-- about section -->
+    <section class="about" id="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/markus-spiske-xARnBLaJiuM-unsplash.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Sepeda Fixie</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam modi similique hic voluptatibus consequatur exercitationem dicta perspiciatis sit numquam explicabo.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias numquam beatae officiis veritatis, consectetur voluptate!</p>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- collection section -->
+    <section id="collection" class="collection">
+      <h2>Collection</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, iure. Quas suscipit quibusdam quaerat dignissimos.</p>
+      <div class="row">
+        <div class="card">
+          <img src="img/koleksi/arif-maulana-m_u7WAEdads-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">TSUNAMI SNM100</h3>
+        </div>
+        <div class="card">
+          <img src="img/koleksi/robert-bye-tG36rvCeqng-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">PEUGEOT</h3>
+        </div>
+        <div class="card">
+          <img src="img/koleksi/zoltan-tasi-zeutQl8ooeU-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">PEARSON</h3>
+        </div>
+        <div class="card">
+          <img src="img/koleksi/lorenzo-gerosa-tz9-ifu1JNQ-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">UNKNOWN</h3>
+        </div>
+        <div class="card">
+          <img src="img/koleksi/mustachescactus-2C51K5Spmi8-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">TSUNAMI SNM100</h3>
+        </div>
+        <div class="card">
+          <img src="img/koleksi/rolando-febrianto-y3DAAd6f3WM-unsplash.jpg" alt="1" class="card-img" />
+          <h3 class="tittle">COMET</h3>
+        </div>
+      </div>
+    </section>
+    <!-- end collection -->
+    <!-- kontak section -->
+    <section id="kontak" class="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit a, dolores repellat in quia voluptatem!</p>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63442.84597195576!2d106.51472718719705!3d-6.37102231642656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e214479840c9%3A0x533b34ef3295d219!2sParung%20Panjang%2C%20Kec.%20Parung%20Panjang%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1687230051224!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="nomor telepon" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- kontak end -->
+    <!-- footer -->
+    <footer>
+      <div class="sosial">
+        <a target="_blank" href="https://www.facebook.com/rizky.ii.180625"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="link">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#collection">Collection</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a target="_blank" href="https://www.facebook.com/rizky.ii.180625">Rizky</a> | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
